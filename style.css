@@ -1,0 +1,132 @@
+@import @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html {
+  height: 100%;
+}
+
+/*body {
+  color: darkblue;
+  background-image: url('images/larsen_photo.jpg');
+  height: 100%;
+  width: 100%;
+}*/
+
+body {
+  margin: 0px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: darkblue;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: darkblue;
+  line-height: 2;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: darkblue;
+  line-height: 1.5;
+  width: 500px;
+  padding: auto;
+  margin: auto;
+  text-align: center;
+}
+
+.prof_pic {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.big_flag {
+  font-size: 80px;
+  line-height: 0;
+  margin: 10px 70px;
+}
+
+
+.bg {
+  background-image: url("images/larsen_photo.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+
+.list1 {
+  font-family: 'Roboto', sans-serif;
+  color: darkblue;
+  list-style: none;
+  padding: 0;
+}
+
+.list1 li {
+  display: inline-block;
+  font-size: 30px;
+  margin: 0px 20px;
+}
+
+.social-icon {
+  color: darkblue;
+  transition: 0.2s;
+}
+
+.social-icon:hover {
+  color: rgb(100,100,100);
+}
+
+.button_red {
+   text-decoration: none;
+   color: white;
+   background-color: #ca3e47;
+   font-family: 'Roboto', sans-serif;
+   color: white;
+   padding: 10px 25px;
+   border-radius: 5px;
+   transition: 0.2s;
+}
+
+
+.bacon {
+  width: 275px;
+  margin-right: 250px;
+  transform: rotate(-20deg);
+
+}
+
+.herring {
+  width: 275px;
+  margin-left: 250px;
+  transform: rotate(20deg);
+}
+
+.flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
